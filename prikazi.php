@@ -66,23 +66,23 @@ $conn->close();
         .custom-button {
         display: inline-block;
         padding: 10px 20px;
-        background-color: #007bff;
+        background-color: #4caf50;
         color: #fff;
         text-decoration: none;
         border-radius: 5px;
         transition: background-color 0.3s ease;
     }
         .custom-button:hover {
-        background-color: #0056b3;
+        background-color: #437C4F;
     }
         a {
             text-decoration: none;
-            color: #33538E;
+            color: #4caf50;
             text-align: center;
             }
 
         a:hover {
-             color: #6560A3;
+             color: #437C4F;
              text-decoration: none;
              cursor: pointer;
         }
