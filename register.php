@@ -107,7 +107,7 @@ $conn->close();
         <input type="submit" value="REGISTER">
     </form>
         <div class="login-link">
-            <p>Već imate nalog. <a href="login.php">Prijavite se ovdje.</a>.</p><br><br>
+            <p>Već imate nalog. <a href="index.php">Prijavite se ovdje.</a>.</p><br><br>
             <strong><?php echo $poruka?><strong>
         </div>
 </div>
