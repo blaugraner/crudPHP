@@ -107,8 +107,8 @@ $result_all = $conn->query($sql_select_all);
 </head>
 <body>
     <div class="dashboard-container">
-        <h2>Dashboard - Detalji</h2>
-
+    <?php echo '<p>Dobrodošli ' . $_SESSION['username'] . '. <br> <a href="logout.php">Odjavite se.</a></p>';?>
+            <h2>Dashboard - Detalji</h2>
         <table>
             <tr>
                 <th>ID</th>
