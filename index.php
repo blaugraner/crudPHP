@@ -1,6 +1,7 @@
 <?php
 include 'connect.php';
 session_start();
+$poruka = "";
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_POST['username'], $_POST['password'])) {
         $username = $_POST['username'];
